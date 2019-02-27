@@ -21,6 +21,14 @@ public class Amostra {
 	public void setAmostraLaboratorio(String amostraLaboratorio) {
 		this.amostraLaboratorio = amostraLaboratorio;
 	}
+	public double amostraLaboratorioDouble() {
+
+		return Double.parseDouble(amostraLaboratorio);
+	}
+	public double amostraGartenDouble() {
+		// TODO Auto-generated method stub
+		return Double.parseDouble(amostraGarten);
+	}
 	
 	
 }
